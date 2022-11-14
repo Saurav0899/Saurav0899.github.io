@@ -433,7 +433,7 @@ ul.circled-list li::before {
     top: 0;
     left: 0;
     content: " ";
-    background-image: url(../images/topwhitewaves.png);
+    background-image: url(../icons/topwhitewaves.png);
     position: absolute;
     height: 6px;
     width: 100%
@@ -620,17 +620,17 @@ a .sharp-icon:hover {
 }
 
 .pattern-1 {
-    background: url(../images/pattern1.png);
+    background: url(../icons/pattern1.png);
     background-repeat: repeat-x repeat-y
 }
 
 .pattern-2 {
-    background: url(../images/pattern2.png);
+    background: url(../icons/pattern2.png);
     background-repeat: repeat-x repeat-y
 }
 
 .pattern-3 {
-    background: url(../images/pattern3.png);
+    background: url(../icons/pattern3.png);
     background-repeat: repeat-x repeat-y
 }
 
@@ -1043,7 +1043,7 @@ span.lavan {
     top: 0;
     left: 0;
     content: " ";
-    background-image: url(../images/headertopwaves.png);
+    background-image: url(../icons/headertopwaves.png);
     position: absolute;
     height: 6px;
     width: 100%
@@ -1053,7 +1053,7 @@ span.lavan {
     bottom: 0;
     left: 0;
     content: " ";
-    background-image: url(../images/headerbottomwaves.png);
+    background-image: url(../icons/headerbottomwaves.png);
     position: absolute;
     height: 6px;
     width: 100%
@@ -1354,7 +1354,7 @@ label.form-group {
     top: 0;
     left: 0;
     content: " ";
-    background-image: url(../images/topwhitewaves.png);
+    background-image: url(../icons/topwhitewaves.png);
     position: absolute;
     height: 6px;
     width: 100%;
@@ -1933,7 +1933,7 @@ footer.footer-background-cover:before {
     top: 0;
     left: 0;
     content: " ";
-    background-image: url(../images/topwhitewaves.png);
+    background-image: url(../icons/topwhitewaves.png);
     position: absolute;
     height: 6px;
     width: 100%
