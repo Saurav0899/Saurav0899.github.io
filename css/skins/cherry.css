@@ -1,0 +1,455 @@
+body {
+    color: #444
+}
+
+a {
+    color: #820d2d
+}
+
+.il-item a .over span::after {
+    color: #820d2d
+}
+
+a:hover {
+    color: #444
+}
+
+.spinner:before,
+.spinner:after {
+    background-color: #820d2d
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #14202c
+}
+
+.parent-bg {
+    background-color: #820d2d;
+    color: #fff
+}
+
+::-moz-selection {
+    background-color: #820d2d;
+    color: #fff
+}
+
+::selection {
+    background-color: #820d2d;
+    color: #fff
+}
+
+.page-head-title i {
+    color: #820d2d
+}
+
+.spacer hr {
+    border-top: 2px solid #820d2d
+}
+
+.spacer i {
+    color: #820d2d
+}
+
+.spacer i.grey-icon {
+    color: #ddd
+}
+
+hr {
+    border-top: 2px solid #eee
+}
+
+button.small-button,
+a.small-button,
+input.small-button[type=submit],
+input#searchsubmit {
+    border: 2px solid #820d2d;
+    background-color: #820d2d;
+    color: #fff
+}
+
+button.medium-button,
+a.medium-button,
+input.medium-button[type=submit] {
+    border: 2px solid #820d2d;
+    background-color: #820d2d;
+    color: #fff
+}
+
+button.large-button,
+a.large-button,
+input.large-button[type=submit] {
+    border: 2px solid #820d2d;
+    background-color: #820d2d;
+    color: #fff
+}
+
+button.small-button:hover,
+a.small-button:hover,
+input.small-button[type=submit]:hover,
+button.medium-button:hover,
+a.medium-button:hover,
+input.medium-button[type=submit]:hover,
+button.large-button:hover,
+a.large-button:hover,
+input.large-button[type=submit]:hover {
+    border: 2px solid #820d2d;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    transition: all .7s ease;
+    background: #fff;
+    color: #820d2d
+}
+
+span.filter:hover,
+span.filter.active {
+    color: #820d2d;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    transition: all .7s ease
+}
+
+ul#filters-cat {
+    border: 1px solid #820d2d
+}
+
+blockquote {
+    background: #eee;
+    border-left: 5px solid #820d2d;
+    border-top: 1px solid #820d2d;
+    border-right: 1px solid #820d2d;
+    border-bottom: 1px solid #820d2d
+}
+
+blockquote span.author {
+    font-weight: 700
+}
+
+.dropcap {
+    color: #820d2d
+}
+
+ul.circled-list li::before {
+    background: #820d2d
+}
+
+.my-parallax {
+    color: #fff
+}
+
+.my-parallax h1,
+.my-parallax h2,
+.my-parallax h3,
+.my-parallax h4,
+.my-parallax h5,
+.my-parallax h6 {
+    color: #fff
+}
+
+.my-parallax-overlay,
+.footer-background-overlay {
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.bottom-border {
+    border-bottom: 3px solid #820d2d
+}
+
+.sharp-icon,
+a .outline-icon:hover {
+    background: #820d2d;
+    color: #fff;
+    border: 2px solid #820d2d
+}
+
+.outline-icon,
+a .sharp-icon:hover {
+    background: #fff;
+    color: #820d2d;
+    border: 2px solid #820d2d
+}
+
+.countdown-num span {
+    border: 3px solid #820d2d;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.swatches {
+    color: #fff
+}
+
+.pattern-1,
+.pattern-2,
+.pattern-3,
+.pattern-none {
+    border: 1px solid #ddd
+}
+
+#options-setting {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #888
+}
+
+.setting-icon {
+    background-color: #fff;
+    color: #820d2d;
+    border-top: 2px solid #820d2d;
+    border-right: 2px solid #820d2d;
+    border-bottom: 2px solid #820d2d
+}
+
+span.pattern-swatches {
+    color: #444
+}
+
+.rounded img {
+    background: #fff
+}
+
+.img-item img {
+    border: 1px solid #ddd
+}
+
+.img-popup-text {
+    background: #fff
+}
+
+.logo hr {
+    border-top: 2px solid #820d2d
+}
+
+.logo i {
+    color: #820d2d
+}
+
+.logo i.grey-icon {
+    color: #ddd
+}
+
+.nav-bg {
+    background-color: #f2f2f2
+}
+
+.navbar-theme-one .top-desription {
+    color: #14202c
+}
+
+.navbar-theme-one .navbar-nav>li>a {
+    color: #14202c
+}
+
+.navbar-theme-two .navbar-nav>li>a {
+    color: #14202c
+}
+
+.navbar-theme-three .nav-bg {
+    background-color: rgba(255, 255, 255, .84)
+}
+
+.navbar-theme-three .navbar-nav>li>a {
+    color: #14202c
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav>li.active>a {
+    color: #820d2d;
+    background-color: transparent
+}
+
+.nav .open>a {
+    border-color: #14202c
+}
+
+.nav .open>a:focus,
+.nav .open>a:hover {
+    border-color: #820d2d
+}
+
+.theme-dropdown {
+    background-color: #f2f2f2
+}
+
+.theme-dropdown>li {
+    border-bottom: 1px solid #ddd
+}
+
+.theme-dropdown>li:last-child {
+    border-bottom: none
+}
+
+.theme-dropdown>li>a {
+    color: #444
+}
+
+.theme-dropdown>li>a:focus,
+.theme-dropdown>li>a:hover {
+    color: #820d2d
+}
+
+.theme-dropdown>.active>a,
+.theme-dropdown>.active>a:focus,
+.theme-dropdown>.active>a:hover {
+    color: #820d2d;
+    background: 0 0
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #820d2d
+}
+
+#main-slider .slider-inner {
+    color: #fff
+}
+
+#main-slider .slider-content {
+    background-color: rgba(255, 255, 255, .85);
+    color: #444
+}
+
+#main-slider .slider-content h2 i {
+    color: #820d2d
+}
+
+#main-slider p.date {
+    border: 1px solid #777;
+    color: #777
+}
+
+.owl-prev,
+.owl-next {
+    color: #fff
+}
+
+.owl-controls .owl-page span {
+    background: #820d2d
+}
+
+form input:focus,
+form textarea:focus {
+    border: 1px solid #820d2d
+}
+
+span.color-element {
+    color: #820d2d
+}
+
+.help-block li {
+    color: #820d2d
+}
+
+.breadcrumb {
+    background-color: transparent;
+    color: #fff
+}
+
+.breadcrumb>.active {
+    color: #fff
+}
+
+.breadcrumb a,
+.breadcrumb a:focus {
+    color: #fff;
+    font-weight: 700
+}
+
+.breadcrumb a:hover {
+    color: #ddd;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease
+}
+
+.blog-post-content h4 {
+    color: #fff
+}
+
+.post-info {
+    border-bottom: 2px solid #ddd
+}
+
+.blog-single-sidebar-item {
+    border-bottom: 2px solid #ddd
+}
+
+.blog-single-sidebar-item ul.tags li a {
+    background-color: #820d2d;
+    color: #fff;
+    border: 1px solid #820d2d
+}
+
+.blog-single-sidebar-item ul.tags li a:hover {
+    color: #820d2d;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+    background: #fff;
+    border: 1px solid #820d2d
+}
+
+.footer-top-content {
+    color: #fff
+}
+
+.footer-top-content h3 {
+    color: #fff
+}
+
+footer.bottom {
+    background-color: #fff;
+    color: #fff
+}
+
+footer.bottom p {
+    color: #444
+}
+
+p.blog-post-date {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    color: #fff
+}
+
+span.page-numbers,
+a.page-numbers:hover {
+    background-color: #820d2d;
+    border: 2px solid #820d2d;
+    color: #fff
+}
+
+a.page-numbers {
+    color: #820d2d;
+    border: 2px solid #820d2d
+}
+
+.coming-soon-modal,
+h6.modal-title {
+    color: #444
+}
+
+table#wp-calendar tbody td {
+    background: #eee;
+    border: 2px solid #fff
+}
+
+table#wp-calendar tbody td.pad {
+    background: #fff
+}
+
+table#wp-calendar tbody a {
+    color: #820d2d
+}
+
+.tagcloud a {
+    color: #fff;
+    background-color: #820d2d
+}
