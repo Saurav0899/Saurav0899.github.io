@@ -433,7 +433,7 @@ ul.circled-list li::before {
     top: 0;
     left: 0;
     content: " ";
-    background-image: url(../icons/topwhitewaves.png);
+    background-image: url(./icons/topwhitewaves.png);
     position: absolute;
     height: 6px;
     width: 100%
@@ -443,7 +443,7 @@ ul.circled-list li::before {
     bottom: 0;
     left: 0;
     content: " ";
-    background-image: url(../images/bottomwhitewaves.png);
+    background-image: url(./icons/bottomwhitewaves.png);
     position: absolute;
     height: 6px;
     width: 100%
@@ -1043,7 +1043,7 @@ span.lavan {
     top: 0;
     left: 0;
     content: " ";
-    background-image: url(../icons/headertopwaves.png);
+    background-image: url(./icons/headertopwaves.png);
     position: absolute;
     height: 6px;
     width: 100%
@@ -1053,7 +1053,7 @@ span.lavan {
     bottom: 0;
     left: 0;
     content: " ";
-    background-image: url(../icons/headerbottomwaves.png);
+    background-image: url(./icons/headerbottomwaves.png);
     position: absolute;
     height: 6px;
     width: 100%
@@ -1079,7 +1079,7 @@ span.lavan {
     bottom: 0;
     left: 0;
     content: " ";
-    background-image: url(../icons/headerbottomwaves.png);
+    background-image: url(./icons/headerbottomwaves.png);
     position: absolute;
     height: 6px;
     width: 100%
@@ -1354,7 +1354,7 @@ label.form-group {
     top: 0;
     left: 0;
     content: " ";
-    background-image: url(../icons/topwhitewaves.png);
+    background-image: url(./icons/topwhitewaves.png);
     position: absolute;
     height: 6px;
     width: 100%;
@@ -1365,7 +1365,7 @@ label.form-group {
     bottom: 0;
     left: 0;
     content: " ";
-    background-image: url(../images/bottomwhitewaves.png);
+    background-image: url(./icons/bottomwhitewaves.png);
     position: absolute;
     height: 6px;
     width: 100%;
@@ -1933,7 +1933,7 @@ footer.footer-background-cover:before {
     top: 0;
     left: 0;
     content: " ";
-    background-image: url(../icons/topwhitewaves.png);
+    background-image: url(./icons/topwhitewaves.png);
     position: absolute;
     height: 6px;
     width: 100%
@@ -1943,7 +1943,7 @@ footer.footer-background-cover:after {
     bottom: 0;
     left: 0;
     content: " ";
-    background-image: url(../images/bottomwhitewaves.png);
+    background-image: url(./icons/bottomwhitewaves.png);
     position: absolute;
     height: 6px;
     width: 100%
