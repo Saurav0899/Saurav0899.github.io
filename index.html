@@ -808,72 +808,7 @@
 
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDNCHlE_T0Y6N_ZQcR2LhfQ1mnhGiRFVPU" async
       defer></script>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('white-map'), {
-          center: { lat: 21.243574, lng: 72.813775 },
-          zoom: 12
-        });
-        bounds = new google.maps.LatLngBounds();
-        function addMarker(markers) {
-          var marker = new google.maps.Marker({
-            position: markers.coordinate,
-            map: map,
-            label: markers.number,
-            animation: google.maps.Animation.DROP,
-            icon: markers.icon
-          })
 
-          var infowindow = new google.maps.InfoWindow({
-            content: markers.infowindow
-          });
-
-          marker.addListener('click', function () {
-            infowindow.open(map, marker);
-          });
-          loc = new google.maps.LatLng(markers.coordinate);
-          bounds.extend(loc);
-          map.fitBounds(bounds);
-          map.panToBounds(bounds);
-        }
-        var d_image = './icons/dark-marker.png';
-
-        addMarker({
-          coordinate: { lat: 21.243574, lng: 72.813775 },
-          infowindow: '<div id="content">' +
-            '<h4 class="font-weight-light"><span class="custom-color">' + "Ganesh sthapna" + '</span></h4>' +
-            '<div class="map-info-content">' +
-            '<p>' + "Khorasa(Gir)" + '</p>' +
-            '</div>' +
-            '</div>',
-          icon: d_image,
-        });
-        addMarker({
-          coordinate: { lat: 21.243574, lng: 72.813775 },
-          infowindow: '<div id="content">' +
-            '<h4 class="font-weight-light"><span class="custom-color">' + "Mandpa ropan" + '</span></h4>' +
-            '<div class="map-info-content">' +
-            '<p>' + "Khorasa(Gir)" + '</p>' +
-            '</div>' +
-            '</div>',
-          icon: d_image,
-        });
-        addMarker({
-          coordinate: { lat: 21.243574, lng: 72.813775 },
-          infowindow: '<div id="content">' +
-            '<h4 class="font-weight-light"><span class="custom-color">' + "Lagn sthal" + '</span></h4>' +
-            '<div class="map-info-content">' +
-            '<p>' + "Khorasa(Gir) to Chandali" + '</p>' +
-            '</div>' +
-            '</div>',
-          icon: d_image,
-        });
-      }
-      setTimeout(function () {
-        initMap()
-      }, 3000)
-    </script>
     <script type="text/javascript">
       $("#btnCopy").on("click", function () {
         $("#copytoclipboard").show();
